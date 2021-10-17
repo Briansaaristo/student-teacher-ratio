@@ -1,0 +1,15 @@
+public static void main(String[] args) {
+		 // There are 11 boys and 16 girls in a class with one teacher and a
+		 //teacher’s assistant. What percent of the students are girls? What 
+		 //is the student-teacher ratio? 
+		int boys = 11;
+		int girls = 16;
+		int teacher = 1;
+		int teacherAssistant = 1;
+		double totalStudents = boys + girls;
+		double totalTeachers = teacher + teacherAssistant;
+		double percentage = girls/totalStudents*100;
+		double teacherRatio = totalStudents/totalTeachers;
+		System.out.println(""+ percentage +"% of students are girls");
+		System.out.println("The student-teacher ratio is "+ teacherRatio +"");
+		}
